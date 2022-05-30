@@ -1,0 +1,1012 @@
+/* stylesheet/* 
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+/* css nynke */
+
+.clear {
+	clear: both;
+}
+/* typo */
+
+body {
+	font-family: 'nunito', sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	background-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+	color: black;
+}
+h1 {
+	font-size: 2.5em;
+	font-weight: 900;
+}
+h2 {
+	font-size: 1em;
+}
+p {
+	margin-bottom: 1em;
+	color: black;
+	line-height: 150%;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.homescreenimg h1 {
+	color: white;
+}
+.homescreenimg h2 {
+	color: white;
+	font-family: 'nunito', sans-serif;
+	font-weight: 500;
+}
+.title h2 {
+	float: left;
+}
+.icon-1 h3 {
+	font-size: 0.9em;
+	text-align: center;
+}
+.icon-1 p {
+	font-size: 0.8em;
+	text-align: center;
+	margin: 5px auto;
+	line-height: 105%;
+}
+.promo h2 {
+	font-size: 1.5em;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.materiaal h3,
+.promo h3 {
+	font-size: 1.4em;
+	font-family: 'nunito', sans-serif;
+	font-weight: 400;
+	text-align: left;
+	color: #B13396;
+	line-height: 100%;
+}
+.tumb h3 {
+	text-align: center;
+}
+.tumb p {
+	text-align: left;
+	white-space: normal;
+	line-height: 100%;
+}
+.hetteamwrap h2,
+#workshopswrap h2 {
+	font-size: 1.5em;
+	text-align: center;
+}
+.hetteamwrap h3 {
+	font-size: 1.4em;
+	font-family: 'nunito', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: #4D92AF;
+}
+.avatar h2 {
+	font-size: 1.3em;
+	text-align: center;
+}
+.avatar h3 {
+	font-size: 1em;
+}
+.footerwrap h3 {
+	text-align: left;
+	color: white;
+	padding: 10px 0 0 0;
+}
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4 p {
+	font-size: 0.9em;
+	text-align: left;
+}
+.footer5 p {
+	font-size: 0.6em;
+	text-align: center;
+	color: #727379;
+}
+/*grid*/
+
+.grid-wrap {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+/* main*/
+
+* {
+	box-sizing: inherit;
+}
+/*beginscherm*/
+
+header {
+	padding-bottom: 20px;
+	max-height: 1000px;
+	width: 100vw;
+}
+.homescreenimg {
+	background-color: #589db9;
+	height: 620px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 4;
+}
+.homescreenimg video{
+	height: 90%;
+	width: 100vw;
+	position: absolute;
+	margin: 60px auto;
+	transform: translateY(-5vh);
+	z-index: -3;
+}
+#logo img {
+	width: 180px;
+	height: 180px;
+	padding-left: 15px;
+	float: left;
+	margin-left: 10px;
+	padding-top: 5px;
+	object-fit: contain;
+}
+.homescreenimg2 {
+	background-color:#499478;
+	height: 620px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 4;
+}
+.homescreenimg2 video{
+	height: 90%;
+	width: 100vw;
+	position: absolute;
+	margin: 60px auto;
+	transform: translateY(-5vh);
+	z-index: -3;
+}
+nav {
+	font-size: 1em;
+	height: 80px;
+	width: 100vw;
+	color: ivory;
+	z-index: 2;
+	right: 0;
+	top: 0;
+}
+nav ul {
+	float: right;
+}
+nav ul li {
+
+	float: left;
+	margin: 0 30px;
+	line-height: 80px;
+	font-family: 'Space Mono', monospace;
+	font-weight: 300;
+}
+.navigatiebalk a:hover {
+	color: #40896C;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+/* 3 icons */
+
+.icon-1 {
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+}
+.icon {
+	width: 100%;
+	width: 93px;
+	height: 93px;
+}
+#iconwrap {
+	display: block;
+	margin: 19px auto;
+	max-width: 800px;
+	height: 100px;
+}
+#iconwrap::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+/* promotie*/
+
+iframe {
+	height: 400px;
+	width: 700px;
+}
+.promo {
+	width: 100%;
+	padding: 20px;
+	overflow: hidden;
+	padding-top: 10%;
+}
+.promovideo {
+	margin-right: 30px;
+	float: left;
+}
+/* workshops */
+
+#workshopswrap {
+	max-width: 100%;
+	position: center;
+	margin-top: 15%;
+	display: block;
+}
+#workshopswrap:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.tumb {
+	float: left;
+	width: 31%;
+	margin: 10px 1.15%;
+}
+.tumb:after {
+	content: "";
+	display: block;
+}
+.tumb img {
+	width: 100%;
+	height: 50%;
+	margin-bottom: 15px;
+	opacity: 1;
+	transition: .5s ease;
+}
+.tumb img:hover {
+	width: 101%;
+	height: 51%;
+	box-shadow: #40896C 0 0 2px 2px;
+	opacity: 0.7;
+}
+.meer {
+	border: #40896C solid 2px;
+	background-color: white;
+	color: #40896C;
+	padding: 5px 5px;
+	text-align: center;
+	font-family: 'nunito', sans-serif;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.meer:hover {
+	background-color: #40896C;
+	color: white;
+}
+/*team*/
+
+.hetteamwrap {
+	max-width: 90%;
+	margin: 15% auto 0 auto;
+	display: block;
+}
+.hetteamwrap:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.avatar img {
+	width: 90%;
+	height: 40%;
+}
+.avatar {
+	float: left;
+	width: 31%;
+	margin: 20px 1%;
+}
+/*footer*/
+
+footer {
+	color: white;
+	display: block;
+	height: 100px;
+	margin-top: 15%;
+}
+.footer::after {
+	display: table;
+	content: " ";
+}
+.footerwrap {
+	background-color: #3c3d41;
+	max-width: 100%;
+	position: center;
+	margin: 80px auto 0;
+	display: block;
+	bottom: 0%;
+}
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4 {
+	float: left;
+	height: 100%;
+	width: 22.5%;
+	margin: 10px 1.25%;
+	background-color: #3c3d41;
+}
+.footer5 {
+	background-color: #3c3d41;
+	width: 100%;
+	height: 20px;
+	bottom: 0px;
+	display: block;
+	margin: 3px auto 3px auto;
+}
+.footerbutton button.meer {
+	width: 100px;
+	background-color: #4D92AF;
+	border: #4D92AF;
+	color: white;
+	margin: 20% 25% 0 25%;
+}
+.footer-3 ul li,
+.footer-2 ul li {
+	margin: 0 auto;
+	line-height: 25px;
+	color: white;
+}
+.footer-3 ul li:hover,
+.footer-2 ul li:hover {
+	margin: 0 auto;
+	color: #B13396;
+}
+.icon-2 {
+	margin: 10px 0 10px 0;
+	float: left;
+	width: 26.67%;
+	text-align: center;
+}
+.icon2 {
+	width: 80%;
+	width: 25px;
+	height: 25px;
+}
+.footer-1 img {
+	width: 150px;
+	padding-left: 25%;
+	padding-top: 5%;
+}
+/*PAGINA2*/
+
+.title2 {
+	padding-top: 20%;
+	margin-left: 10%;
+	max-width: 60%;
+}
+.title2 h2 {
+	float: left;
+	color: white;
+	line-height: 120%;
+}
+.materiaal h2,
+.tutorials h2,
+.algemeen h2 {
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	margin-top: 10%;
+}
+.algemeen h2,
+.algemeen h3 {
+	color: #4D92AF;
+}
+.materiaal h2,
+.materiaal h3 {
+	color: #40896C;
+}
+.tutorials h2,
+.tutorials h3 {
+	color: #B13396;
+}
+.algemeen h3,
+.materiaal h3 {
+	text-align: left;
+	padding-top: 10px;
+}
+.materiaal h3 {
+	padding-bottom: 10px;
+	border-bottom: #40896C solid 2px;
+}
+
+
+.materiaal,
+.tutorials,
+.algemeen {
+	width: 80%;
+	margin: 0 auto;
+}
+.tijdicon {
+	width: 100%;
+}
+.uitleg {
+	width: 80%;
+	margin: 0px auto;
+	padding-bottom: 50px;
+	padding-top: 10px;
+	text-align: justify;
+	border-bottom: #4D92AF solid 2px;
+}
+.info {
+	width: 80%;
+	height: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px auto;
+}
+.leerdoelen {
+	width: 48%;
+	display: block;
+	float: left;
+}
+.geschikt {
+	width: 48%;
+	display: block;
+	float: right;
+}
+.nodig{
+	width: 80%;
+	margin: 0 auto;
+}
+.nodig ul li,
+.geschikt ul li,
+.leerdoelen ul li {
+	margin: 3px 20px;
+	line-height: 20px;
+	font-family: 'nunito', sans-serif;
+	font-weight: 200;
+	font-size: 0.9em;
+}
+.beschrijving {
+	width: 80%;
+	margin: 20px auto;
+	text-align: justify;
+}
+.video {
+	width: 100%;
+	padding: 20px;
+	overflow: hidden;
+	margin-top: 10%;
+}
+.video1 {
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+.video2 {
+	display: block;
+	float: right;
+	margin-left: 30px;
+}
+iframe.tut {
+	height: 300px;
+	width: 500px;
+}
+.downloadhok {
+	height: 280px;
+	width: 100%;
+	margin-top: 20px;
+	border: #40896C solid 2px;
+}
+.inhoud {
+	width: 30%;
+	height: 100%;
+	display: block;
+	float: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 4%;
+}
+#downloadknop {
+	width: 30%;
+	display: block;
+	float: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 4%;
+}
+#downloadknop::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#downloadknop img {
+	margin: 0 auto;
+	height: 220px;
+	width: 220px;
+}
+.inhoud ul li {
+	line-height: 30px;
+	font-family: 'Space Mono', monospace;
+	font-weight: 600;
+	font-size: 1em;
+	color: black;
+}
+/*ACHTERGROND*/
+
+.circle {
+	position: absolute;
+	top: 800px;
+	left: -80px;
+	height: 180px;
+	width: 180px;
+	border: #40896C solid 15px;
+	border-radius: 50%;
+	z-index: -10;
+}
+.circle2 {
+	position: absolute;
+	top: 1020px;
+	left: 50px;
+	height: 30px;
+	width: 30px;
+	border: #40896C solid 10px;
+	border-radius: 50%;
+	z-index: -10;
+}
+.vierkant {
+	position: absolute;
+	top: 1900px;
+	left: -10px;
+	height: 130px;
+	width: 130px;
+	border: #4D92AF solid 15px;
+	z-index: -10;
+	transform: rotate(20deg);
+}
+.vierkant2 {
+	position: absolute;
+	top: 2050px;
+	left: -63px;
+	height: 80px;
+	width: 80px;
+	border: #4D92AF solid 15px;
+	z-index: -10;
+	transform: rotate(26deg);
+}
+
+article{
+	margin: 0 auto;
+}
+/*media*/
+
+@media only screen and (max-width: 1080px) {
+	.grid-wrap {
+		padding: 0 20px;
+	}
+}
+
+@media only screen and (max-width: 940px) {
+	.promovideo{
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.icon-1 h3{
+		height: 30px;
+	}
+
+	.video1{
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
+	.video2{
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+
+	.video3{
+		float: none;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	
+
+	iframe.tut {
+		
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.footerbutton button.meer {
+		width: 60px;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.icon-1 {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.icon-1 p{
+		width: 400px;
+	}
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .tumb {
+        display: block;
+    }
+
+	.tumb h3{
+		height: 50px;
+	}
+    .grid-wrap {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    nav ul li{
+        margin: 0 15px;
+        top: 10px;
+        font-size: 0.8em;
+    }
+	.homescreenimg {
+        min-height: 600px;
+        width: 100vw;
+    }
+
+	.nodig{
+		margin-top: 80px;
+	}
+
+	.video{
+		margin-bottom: 100px;
+	}
+
+    .video1{
+        float: none;
+        margin: 0 auto;
+    }
+	.video2{
+        float: none;
+        margin-left: 0;
+    }
+    .video3{
+        float: none;
+    }
+    h3{
+        margin-top: 1em;
+    }
+
+	.promovideo iframe{
+		width: 100%;
+	}
+    
+    .downloadhok{
+        height: 350px;
+    }
+    .inhoud ul li{
+        font-size: 0.7em;
+        line-height: 15px;
+    }
+
+	.video{
+		padding: 0px;
+	}
+
+    footer {
+        height: 100px;
+        width: 100%;
+    }
+    .footer-1 img{
+		max-width: 100px;
+		margin: 25% auto;
+	}
+    @media only screen and (max-width: 600px) {
+        /* For mobile phones: */
+        .menu, .main, .right {
+            width: 100%;
+        }
+        body {
+            margin-bottom: 0px;
+        }
+
+        nav ul li{
+            margin: 0 10px;
+            top: 10px;
+            font-size: 0.5em;
+        }
+
+		.icon-1{
+			float: none;
+			margin: 0 auto;
+		}
+        .footer {
+            height: 100px;
+        }
+        .tumb {
+            width: 100%;
+			margin-bottom: 100px;
+        }
+
+		.nodig{
+			margin-top: 60px;
+		}
+
+		.tumb p {
+			text-align: center;
+			max-width: 300px;
+			margin: 0 auto;
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+		.tumb img {
+			height: 70%;
+			width: 70%;
+			margin: 0 auto;
+			display: block;
+		}
+        body {
+            font-size: 15px;
+            margin: 0 auto;
+        }
+        .homescreenimg {
+            min-height: 500px;
+            width: 100vw;
+        }
+		#iconwrap {
+			display: block;
+			margin: 10px auto;
+			width: 100%;
+			height: 100%;
+		}
+
+		.avatar h2{
+			font-size: 1em;
+		}
+
+		.icon-1 h3{
+			display: block;
+			margin: 0 auto;
+		}
+
+		.icon-1 p{
+			width: 300px;
+		}
+		.promovideo {
+			margin: 0 auto;
+			margin-bottom: 15px;
+		}
+
+		.video {
+			width: 100%;
+			padding: 0px;
+			overflow: hidden;
+			margin-top: 10%;
+			margin: 0 auto;
+			margin-bottom: 100px;
+		}
+
+
+		.footer-1 img{
+			max-width: 70px;
+			margin: 25% auto;
+		}
+		.meer{
+			font-size: 12px;
+		}
+		.footerbutton{
+			max-width:10px ;
+		}
+		#downloadknop{
+            transform: scale(0.7);
+            padding-left: 0;
+        }
+        .inhoud{
+            padding-left: 20%;
+        }
+        .downloadhok{
+            height: 250px;
+        }
+
+
+
+        @media only screen and (max-width: 480px) {
+            h1, h2, h3, h4 {
+                font-family: 'Space Mono', monospace;
+                font-weight: 700;
+                margin-bottom: 0.5em;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 0.5em;
+            }
+            h3 {
+                font-size: 0.9em;
+            }
+            p {
+                margin-bottom: 0.9em;
+            }
+
+			.nodig{
+				margin-top: 40px;
+			}
+
+            iframe {
+                height: 200px;
+                width: 300px;
+            }
+
+			iframe.tut{
+				width: 100%;
+				margin: 0 auto;
+			}
+			.homescreenimg{
+				height: 150px;
+			}
+			.homescreenimg2{
+				height: 300px;
+			}
+			#logo img{
+				height: 80px;
+				width: 80px;
+			}
+            nav {
+                height: 100px;
+                width: 100%;
+                color: ivory;
+                z-index: 2;
+                right: 5px;
+                top: 0;
+            }
+            nav ul {
+                display: inherit;
+            }
+            nav ul li {
+                margin: 0 5px;
+                line-height: 80px;
+                font-family: 'Space Mono', monospace;
+                font-weight: 300;
+            }
+
+			#iconwrap {
+				display: block;
+				margin: 10px auto;
+				width: 100%;
+				height: 100%;
+			}
+			#iconwrap h3{
+				text-align: center;
+			}
+            .icon-1 {
+				float: left;
+				width: 100%;
+				text-align: center;
+			}
+
+			.video{
+				margin-bottom: 100px;
+			}
+
+			
+			.icon {
+				width: 53px;
+				height: 53px;
+			}
+
+			.hetteamwrap h3{
+				font-size: 1.5em;
+			}
+			.hetteamwrap h2{
+				font-size: 1.5em;
+			}
+			
+			.avatar h2{
+				margin-top: 10px;
+			}
+			.avatar h3{
+				margin-bottom: 10px;
+			}
+            .avatar img {
+				margin: 0 auto;
+				display: block;
+			}
+            .tumb img {
+                height: 50%;
+                width: 50%;
+            }
+
+			.hetteamwrap {
+				max-width: 90%;
+				margin: 15% auto;
+				display: block;
+			}
+			.avatar {
+				width: 100%;
+				margin: 20px 1%;
+
+			}
+
+			.footer-1 img{
+				height: 60px;
+				width: 60px;
+			}
+			.footerwrap {
+				background-color: #3c3d41;
+				max-width: 100%;
+				position: center;
+				margin: 80px auto 0;
+				bottom: 0%;
+			}
+
+			.footer-1{
+				float: left;
+			}
+			.footer-2{
+				float: left;
+				width: 20%;
+			}
+			.footer-3{
+				float: left;
+				width: 20%;
+			}
+			.footer-4{
+				float: left;
+				width: 20%;
+			}
+			
+
+            .info{
+                height: 100px;
+            }
+            
+			.leerdoelen ul li {
+				font-size: 0.7em;
+				line-height: 10px;
+			}
+
+            .geschikt ul li{
+                font-size: 0.7em;
+                line-height: 10px;
+            }
+
+            .nodig ul li{
+                font-size: 0.7em;
+                line-height: 10px;
+            }
+
+			#downloadknop{
+				transform: scale(0.4);
+				padding: 0;
+			}
+        }
+    }
+}
